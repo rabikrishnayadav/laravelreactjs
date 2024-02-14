@@ -6,6 +6,9 @@
     <title>Hello</title>
 </head>
 <body>
+    <div id="app"></div>
+    <div id="apps"></div>
+
 @viteReactRefresh
 @vite('resources/js/app.js')
 </body>

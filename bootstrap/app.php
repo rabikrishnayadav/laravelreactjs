@@ -15,6 +15,8 @@ $app = new Illuminate\Foundation\Application(
     $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)
 );
 
+// $app->usePublicPath(base_path('/'));  // when build then enable, when development then desable
+
 /*
 |--------------------------------------------------------------------------
 | Bind Important Interfaces
